@@ -39,6 +39,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_0BACECD410DB4CDCAA265D0244A53DBB"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_0E89A0AD8B1F4546A9049377C22452CC"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -207,6 +213,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_708D1C8515834AAB9AB9A73E0DE9DAB9"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_732658A5AACF4751824A74F441BB50D2"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -243,7 +255,19 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_7DA4C9372BE6464395C1665BE87A55BE"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_864621A6C74F46F4925E42012D229C35"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_86B58AB08D314CB7B9A828706B9A367E"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -316,6 +340,12 @@
         "Entry"
         {
         "MsmKey" = "8:_9D253C7829C34E6EBC93A22D1296252E"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A0F9C976995C4F9CBFFD43FEA1E84DDF"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -399,6 +429,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_C340AA21522C46C1AB447E6B8DEBB342"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_C91F9782CCAC423582F4D637ACF788FE"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -454,6 +490,12 @@
         "Entry"
         {
         "MsmKey" = "8:_E547D316E17D4BB38A2EC1AE3B025DB7"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E5521E893C30440E90E263DE74690D4B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -536,6 +578,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
             }
         }
         "Release"
@@ -560,6 +610,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
             }
         }
     }
@@ -567,6 +625,34 @@
     {
         "CustomAction"
         {
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_3E39BE3EEE0F43BD93490AA27B7E488E"
+            {
+            "Name" = "8:qt_deploy_install_uninstall.exe"
+            "Condition" = "8:"
+            "Object" = "8:_E5521E893C30440E90E263DE74690D4B"
+            "FileType" = "3:2"
+            "InstallAction" = "3:1"
+            "Arguments" = "8:/Install"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_62F5B7D7_983E_4C58_A60C_CB0DB848018C"
+            "InstallerClass" = "11:FALSE"
+            "CustomActionData" = "8:"
+            }
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_59C028A70F0641289EC15E934262A93E"
+            {
+            "Name" = "8:qt_deploy_install_uninstall.exe"
+            "Condition" = "8:"
+            "Object" = "8:_E5521E893C30440E90E263DE74690D4B"
+            "FileType" = "3:2"
+            "InstallAction" = "3:4"
+            "Arguments" = "8:/Uninstall"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_F24185C4_C177_4F26_91BF_5E463D61C48D"
+            "InstallerClass" = "11:FALSE"
+            "CustomActionData" = "8:"
+            }
         }
         "DefaultFeature"
         {
@@ -628,6 +714,26 @@
             "TargetName" = "8:qsqlite.dll"
             "Tag" = "8:"
             "Folder" = "8:_D6250D79D50A401AA6E11C351A965014"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0BACECD410DB4CDCAA265D0244A53DBB"
+            {
+            "SourcePath" = "8:..\\..\\..\\sys\\win64\\release\\vcruntime140d.dll"
+            "TargetName" = "8:vcruntime140d.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_FBD9CFFF390549428F7B7DE6412134BB"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -1202,6 +1308,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_708D1C8515834AAB9AB9A73E0DE9DAB9"
+            {
+            "SourcePath" = "8:..\\..\\..\\sys\\win64\\release\\Qt5Guid.dll"
+            "TargetName" = "8:Qt5Guid.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_FBD9CFFF390549428F7B7DE6412134BB"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_732658A5AACF4751824A74F441BB50D2"
             {
             "SourcePath" = "8:..\\..\\..\\sys\\win64\\release\\virtualkeyboard\\qtvirtualkeyboard_tcime.dll"
@@ -1322,12 +1448,52 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7DA4C9372BE6464395C1665BE87A55BE"
+            {
+            "SourcePath" = "8:..\\..\\..\\sys\\win64\\release\\msvcp140.dll"
+            "TargetName" = "8:msvcp140.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_FBD9CFFF390549428F7B7DE6412134BB"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_864621A6C74F46F4925E42012D229C35"
             {
             "SourcePath" = "8:..\\..\\..\\sys\\win64\\release\\audio\\qtaudio_windows.dll"
             "TargetName" = "8:qtaudio_windows.dll"
             "Tag" = "8:"
             "Folder" = "8:_D17E57968CFB4A00AC43CFDB585F17FF"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_86B58AB08D314CB7B9A828706B9A367E"
+            {
+            "SourcePath" = "8:..\\..\\..\\sys\\win64\\release\\msvcp140d.dll"
+            "TargetName" = "8:msvcp140d.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_FBD9CFFF390549428F7B7DE6412134BB"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -1568,6 +1734,26 @@
             "TargetName" = "8:qmldbg_quickprofiler.dll"
             "Tag" = "8:"
             "Folder" = "8:_5DB7E6F1C963477EB10A64FD3566B335"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A0F9C976995C4F9CBFFD43FEA1E84DDF"
+            {
+            "SourcePath" = "8:..\\..\\..\\sys\\win64\\release\\Qt5Widgetsd.dll"
+            "TargetName" = "8:Qt5Widgetsd.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_FBD9CFFF390549428F7B7DE6412134BB"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -1842,6 +2028,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C340AA21522C46C1AB447E6B8DEBB342"
+            {
+            "SourcePath" = "8:..\\..\\..\\sys\\win64\\release\\Qt5Cored.dll"
+            "TargetName" = "8:Qt5Cored.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_FBD9CFFF390549428F7B7DE6412134BB"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C91F9782CCAC423582F4D637ACF788FE"
             {
             "SourcePath" = "8:..\\..\\..\\sys\\win64\\release\\imageformats\\qicns.dll"
@@ -2028,6 +2234,26 @@
             "TargetName" = "8:qsqlodbc.dll"
             "Tag" = "8:"
             "Folder" = "8:_D6250D79D50A401AA6E11C351A965014"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E5521E893C30440E90E263DE74690D4B"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\sys\\win64\\bin\\qt_deploy_install_uninstall.exe"
+            "TargetName" = "8:qt_deploy_install_uninstall.exe"
+            "Tag" = "8:"
+            "Folder" = "8:_FBD9CFFF390549428F7B7DE6412134BB"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -2587,7 +2813,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:qt_deploy_x64"
         "ProductCode" = "8:{5D7334EE-A98D-4C3F-95FD-C534F7B01515}"
-        "PackageCode" = "8:{EA62DDD0-AEBF-4BD9-9B8D-73C0EC9DAC7A}"
+        "PackageCode" = "8:{5AF10953-1CB5-4BDF-9A98-EF9C701C4877}"
         "UpgradeCode" = "8:{C58FE67D-E8A8-4705-A06E-D8A722E21A0A}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
