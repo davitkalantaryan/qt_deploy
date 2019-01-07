@@ -1,0 +1,5 @@
+
+/prj/*/*/*/*
+/prj/*/*/*
+!/prj/*/*_vs/*.vdproj
+!/prj/*/*_vs/*.sln
